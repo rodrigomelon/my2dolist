@@ -1,38 +1,84 @@
-.App {
+.maincontainer {
+  max-width: 750px;
+  margin: 3rem auto;
+  border: 3px solid rgba(255, 255, 255, 0.795);
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(88, 88, 88, 0.795);
+  background-image: url(./Components/pics/stripes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Libre Bodoni', serif;
   text-align: center;
+  font-size: 40px;
+  color: rgb(32, 32, 32);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  text-align: center;
+  margin-top: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 17px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pinput {
+  margin-bottom: 15px;
+}
+
+.sinput {
+  margin-bottom: 15px;
+}
+
+input {
+  min-width: 300px;
+  font-family: 'Special Elite', cursive;
+  padding: 6px;
+}
+
+button {
+  margin-bottom: 45px;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid rgb(102, 102, 102);
+  cursor: pointer;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+p {
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+}
+
+.taskitem {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-color: rgb(189, 189, 189);
+  border-style: groove;
+  border-radius: 6px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(73, 73, 73, 0.7);
 }
 
-.App-link {
-  color: #61dafb;
+.tasklistt {
+  margin-bottom: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 750px) {
+  .maincontainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
