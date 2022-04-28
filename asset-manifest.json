@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my2dolist/static/css/main.abbecf30.css",
+    "main.js": "/my2dolist/static/js/main.fbdcb34c.js",
+    "static/media/stripes.png": "/my2dolist/static/media/stripes.413968138d9054d6442d.png",
+    "index.html": "/my2dolist/index.html",
+    "main.abbecf30.css.map": "/my2dolist/static/css/main.abbecf30.css.map",
+    "main.fbdcb34c.js.map": "/my2dolist/static/js/main.fbdcb34c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abbecf30.css",
+    "static/js/main.fbdcb34c.js"
+  ]
+}
