@@ -51,7 +51,7 @@ export default function Main() {
         <br />
         <input
           className="sinput"
-          type="text"
+          type="number"
           name="tduration"
           placeholder="Write the duration of your task here..."
           onChange={e => setDuration(e.target.value)}
